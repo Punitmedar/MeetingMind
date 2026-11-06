@@ -1,0 +1,40 @@
+# Python environments
+.venv/
+venv/
+backend/wsl-venv/
+backend/.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+.env.*
+!.env.example
+backend/.env
+
+# Node dependencies
+node_modules/
+dist/
+.next/
+
+# MongoDB data
+backend/mongo_data/
+MongoDBTest/log/
+
+# Media and uploads
+uploads/
+*.mp3
+*.mp4
+*.wav
+
+# AI models
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Logs and backups
+*.log
+_backups/

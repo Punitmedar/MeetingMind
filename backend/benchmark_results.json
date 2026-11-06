@@ -1,0 +1,74 @@
+[
+  {
+    "api": {
+      "file": "meeting_short.wav",
+      "size_mb": 0.97,
+      "upload_http_s": 0.05,
+      "wait_for_processing_s": 4.09,
+      "final_status": "processed",
+      "processing_time_seconds_reported": 3.28
+    },
+    "stages": {
+      "ffmpeg_s": 0.0,
+      "audio_duration_s": 23.0,
+      "whisper_s": 1.64,
+      "flan_t5_summary_s": 1.47,
+      "mom_rules_s": 0.0,
+      "transcript_words": 62
+    }
+  },
+  {
+    "api": {
+      "file": "meeting_long.mp4",
+      "size_mb": 1.06,
+      "upload_http_s": 0.04,
+      "wait_for_processing_s": 13.27,
+      "final_status": "processed",
+      "processing_time_seconds_reported": 12.46
+    },
+    "stages": {
+      "ffmpeg_s": 0.08,
+      "audio_duration_s": 132.1,
+      "whisper_s": 8.76,
+      "flan_t5_summary_s": 4.81,
+      "mom_rules_s": 0.01,
+      "transcript_words": 364
+    }
+  },
+  {
+    "api": {
+      "file": "clip_2min.mp4",
+      "size_mb": 10.03,
+      "upload_http_s": 0.12,
+      "wait_for_processing_s": 10.17,
+      "final_status": "processed",
+      "processing_time_seconds_reported": 9.37
+    },
+    "stages": {
+      "ffmpeg_s": 0.11,
+      "audio_duration_s": 120.0,
+      "whisper_s": 8.66,
+      "flan_t5_summary_s": 2.27,
+      "mom_rules_s": 0.0,
+      "transcript_words": 281
+    }
+  },
+  {
+    "api": {
+      "file": "clip_5min.mp4",
+      "size_mb": 21.85,
+      "upload_http_s": 0.24,
+      "wait_for_processing_s": 20.45,
+      "final_status": "processed",
+      "processing_time_seconds_reported": 20.06
+    },
+    "stages": {
+      "ffmpeg_s": 0.22,
+      "audio_duration_s": 300.0,
+      "whisper_s": 17.76,
+      "flan_t5_summary_s": 2.56,
+      "mom_rules_s": 0.01,
+      "transcript_words": 717
+    }
+  }
+]
